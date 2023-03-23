@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'GeofencingDemo' do
+  pod 'GoogleMaps'
+  pod 'GooglePlaces', '7.4.0'
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for GeofencingDemo
+
+  target 'GeofencingDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'GeofencingDemoUITests' do
+    # Pods for testing
+  end
+
+end
